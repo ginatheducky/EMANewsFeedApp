@@ -1,0 +1,195 @@
+{
+    "meta": {
+        "total_records": 17,
+        "timestamp": "2026-04-23T06:17:04Z"
+    },
+    "data": [
+        {
+            "title": "Meeting highlights from the Committee for Veterinary Medicinal Products (CVMP) 14-16 April 2026",
+            "press_release": "No",
+            "related_medicine_referral": "Nobivac NXT HCPChFeLV;Solensia;Startvac;Vectormune HVT-AIV",
+            "categories": "Veterinary",
+            "topics": "Medicines",
+            "news_summary": "Outcomes of the Committee for Veterinary Medicinal Products (CVMP) meeting",
+            "first_published_date": "17/04/2026",
+            "last_updated_date": "",
+            "news_url": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-veterinary-medicinal-products-cvmp-14-16-april-2026"
+        },
+        {
+            "title": "EMA recommends authorisation of first veterinary vaccine using RNA technology",
+            "press_release": "No",
+            "related_medicine_referral": "Nobivac NXT HCPChFeLV",
+            "categories": "Veterinary",
+            "topics": "Vaccines",
+            "news_summary": "Nobivac NXT HCPChFeLV helps protect against common, highly contagious infections in cats",
+            "first_published_date": "17/04/2026",
+            "last_updated_date": "",
+            "news_url": "https://www.ema.europa.eu/en/news/ema-recommends-authorisation-first-veterinary-vaccine-using-rna-technology"
+        },
+        {
+            "title": "Meeting highlights from the Pharmacovigilance Risk Assessment Committee (PRAC) 7-10 April 2026",
+            "press_release": "No",
+            "related_medicine_referral": "",
+            "categories": "Human",
+            "topics": "Pharmacovigilance",
+            "news_summary": "PRAC agrees on communication to healthcare professionals about cases of severe liver injury with epilepsy medicine",
+            "first_published_date": "10/04/2026",
+            "last_updated_date": "",
+            "news_url": "https://www.ema.europa.eu/en/news/meeting-highlights-pharmacovigilance-risk-assessment-committee-prac-7-10-april-2026"
+        },
+        {
+            "title": "EMA business hours over Easter holiday period",
+            "press_release": "No",
+            "related_medicine_referral": "",
+            "categories": "Corporate",
+            "topics": "",
+            "news_summary": "The European Medicines Agency's (EMA) office is closed from 18:00 on 1 April to 08:30 on 7 April",
+            "first_published_date": "31/03/2026",
+            "last_updated_date": "",
+            "news_url": "https://www.ema.europa.eu/en/news/ema-business-hours-over-easter-holiday-period-1"
+        },
+        {
+            "title": "EU recommendations for 2026/2027 seasonal flu vaccine composition",
+            "press_release": "No",
+            "related_medicine_referral": "",
+            "categories": "Human",
+            "topics": "Vaccines",
+            "news_summary": "Annual updates to virus strains ensure vaccines stay effective",
+            "first_published_date": "30/03/2026",
+            "last_updated_date": "09/04/2025",
+            "news_url": "https://www.ema.europa.eu/en/news/eu-recommendations-2026-2027-seasonal-flu-vaccine-composition"
+        },
+        {
+            "title": "Meeting highlights from the Committee for Medicinal Products for Human Use (CHMP) 23-26 March 2026",
+            "press_release": "No",
+            "related_medicine_referral": "Adstiladrin;Imdylltra;Joenja;Zepzelca;Bopediat;Besponsa;Capvaxive;Feraccru;Hetronifly;Hympavzi;Imcivree;Lojuxta;Mekinist;mResvia;Namuscla;Retsevmo;Sotyktu;Tafinlar;Blarcamesine Anavex;Hetlioz;Tecovirimat SIGA",
+            "categories": "Human",
+            "topics": "Medicines",
+            "news_summary": "Five new medicines recommended for approval; another 13 medicines recommended for extension of their therapeutic indications",
+            "first_published_date": "27/03/2026",
+            "last_updated_date": "",
+            "news_url": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-23-26-march-2026"
+        },
+        {
+            "title": "New PRIME tools to accelerate development of medicines in the EU",
+            "press_release": "No",
+            "related_medicine_referral": "",
+            "categories": "Human",
+            "topics": "PRIME",
+            "news_summary": "Three new PRIME features streamline scientific dialogue and help developers to stay on track",
+            "first_published_date": "18/03/2026",
+            "last_updated_date": "",
+            "news_url": "https://www.ema.europa.eu/en/news/new-prime-tools-accelerate-development-medicines-eu"
+        },
+        {
+            "title": "EMA Management Board: highlights of March 2026 meeting",
+            "press_release": "No",
+            "related_medicine_referral": "",
+            "categories": "Corporate",
+            "topics": "Clinical trials;Medicine shortages",
+            "news_summary": "Board adopts Agency’s 2025 annual report and notes electronic product information implementation roadmap",
+            "first_published_date": "13/03/2026",
+            "last_updated_date": "",
+            "news_url": "https://www.ema.europa.eu/en/news/ema-management-board-highlights-march-2026-meeting"
+        },
+        {
+            "title": "Meeting highlights from the Committee for Veterinary Medicinal Products (CVMP) 10-12 March 2026",
+            "press_release": "No",
+            "related_medicine_referral": "AviGate S. Infantis;VeroBlue-3;Syvazul BTV 3;Mometamax Ultra",
+            "categories": "Veterinary",
+            "topics": "Medicines",
+            "news_summary": "Outcomes of the Committee for Veterinary Medicinal Products (CVMP) meeting",
+            "first_published_date": "13/03/2026",
+            "last_updated_date": "",
+            "news_url": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-veterinary-medicinal-products-cvmp-10-12-march-2026"
+        },
+        {
+            "title": "Meeting highlights from the Pharmacovigilance Risk Assessment Committee (PRAC) 9 - 12 March 2026",
+            "press_release": "No",
+            "related_medicine_referral": "",
+            "categories": "Human",
+            "topics": "Pharmacovigilance",
+            "news_summary": "PRAC warns about known risk of aseptic meningitis with chikungunya vaccine Ixchiq",
+            "first_published_date": "13/03/2026",
+            "last_updated_date": "",
+            "news_url": "https://www.ema.europa.eu/en/news/meeting-highlights-pharmacovigilance-risk-assessment-committee-prac-9-12-march-2026"
+        },
+        {
+            "title": "New guidance on the conduct of clinical trials during public health emergencies in the EU",
+            "press_release": "No",
+            "related_medicine_referral": "",
+            "categories": "Human",
+            "topics": "Clinical trials",
+            "news_summary": "Recommendations to streamline authorisation of new clinical trials and changes to ongoing trials to generate clinical evidence",
+            "first_published_date": "05/03/2026",
+            "last_updated_date": "",
+            "news_url": "https://www.ema.europa.eu/en/news/new-guidance-conduct-clinical-trials-during-public-health-emergencies-eu"
+        },
+        {
+            "title": "Meeting highlights from the Committee for Medicinal Products for Human Use (CHMP) 23-26 February 2026",
+            "press_release": "No",
+            "related_medicine_referral": "mCOMBRIAX;Ojemda;Onerji;Palsonify;Rhapsido;Xolremdi;Bysumlog;Dazparda;Fubelv;Poherdy;Tuyory;Zandoriah;Acoziborole Winthrop;Daybu;Iloperidone Vanda Pharmaceuticals;Dupixent;Jorveza;Keytruda;Olumiant;Scemblix;Stelara;Zumrad",
+            "categories": "Human",
+            "topics": "COVID-19;Medicines;Medicines for use outside the EU;Vaccines",
+            "news_summary": "12 new medicines recommended for approval; another six medicines recommended for extension of their therapeutic indications",
+            "first_published_date": "27/02/2026",
+            "last_updated_date": "",
+            "news_url": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-23-26-february-2026"
+        },
+        {
+            "title": "New single-dose oral treatment for human African trypanosomiasis (sleeping sickness)",
+            "press_release": "No",
+            "related_medicine_referral": "Acoziborole Winthrop",
+            "categories": "Human",
+            "topics": "Medicines for use outside the EU",
+            "news_summary": "Acoziborole Winthrop simplifies treatment of first- and second-stage disease caused by T. brucei gambiense",
+            "first_published_date": "27/02/2026",
+            "last_updated_date": "",
+            "news_url": "https://www.ema.europa.eu/en/news/new-single-dose-oral-treatment-human-african-trypanosomiasis-sleeping-sickness"
+        },
+        {
+            "title": "First combined COVID-19 and influenza vaccine for people 50 years and older",
+            "press_release": "No",
+            "related_medicine_referral": "mCOMBRIAX",
+            "categories": "Human",
+            "topics": "COVID-19;Medicines;Vaccines",
+            "news_summary": "mCombriax helps to protect against both COVID-19 caused by SARS-CoV-2 and seasonal influenza",
+            "first_published_date": "27/02/2026",
+            "last_updated_date": "",
+            "news_url": "https://www.ema.europa.eu/en/news/first-combined-covid-19-influenza-vaccine-people-50-years-older"
+        },
+        {
+            "title": "New medicine to treat paediatric low-grade glioma",
+            "press_release": "No",
+            "related_medicine_referral": "Ojemda",
+            "categories": "Human",
+            "topics": "Medicines;Paediatrics",
+            "news_summary": "Ojemda addresses unmet need for patients aged 6 months and older with paediatric brain tumour with BRAF alterations",
+            "first_published_date": "27/02/2026",
+            "last_updated_date": "",
+            "news_url": "https://www.ema.europa.eu/en/news/new-medicine-treat-paediatric-low-grade-glioma"
+        },
+        {
+            "title": "Recruitment procedure opens for next Executive Director of the European Medicines Agency",
+            "press_release": "No",
+            "related_medicine_referral": "",
+            "categories": "Corporate",
+            "topics": "Corporate",
+            "news_summary": "Candidates have until 19 March to apply for the role",
+            "first_published_date": "20/02/2026",
+            "last_updated_date": "",
+            "news_url": "https://www.ema.europa.eu/en/news/recruitment-procedure-opens-next-executive-director-european-medicines-agency"
+        },
+        {
+            "title": "Meeting highlights from the Committee for Veterinary Medicinal Products (CVMP) 10-12 February 2026",
+            "press_release": "No",
+            "related_medicine_referral": "Emepax;Suvaxyn PRRS MLV;Bluevac BTV (previously Bluevac BTV8);Bravecto;Coxevac;Yurvac RHD;Versican Plus DHPPi/L4;Versican Plus DHPPi/L4R",
+            "categories": "Veterinary",
+            "topics": "Medicines",
+            "news_summary": "Outcomes of the Committee for Veterinary Medicinal Products (CVMP) meeting",
+            "first_published_date": "13/02/2026",
+            "last_updated_date": "",
+            "news_url": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-veterinary-medicinal-products-cvmp-10-12-february-2026"
+        }
+    ]
+}

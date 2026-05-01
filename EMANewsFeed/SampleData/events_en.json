@@ -1,0 +1,218 @@
+{
+    "meta": {
+        "total_records": 3240,
+        "timestamp": "2026-04-27T06:00:42Z"
+    },
+    "data": [
+        {
+            "title": "ACT EU webinar on contractual agreements",
+            "date_start_end_dates": "Thu, Apr 16 2026, 9am - 12:30pm",
+            "live_broadcast": "No",
+            "online": "Yes",
+            "location": "European Medicines Agency, Amsterdam, the Netherlands",
+            "first_published_date": "16/03/2026",
+            "last_updated_date": "24/04/2026",
+            "event_url": "https://www.ema.europa.eu/en/events/act-eu-webinar-contractual-agreements"
+        },
+        {
+            "title": "Clinical Trials Information System (CTIS): Walk-in clinic April 2026",
+            "date_start_end_dates": "Thu, Apr 16 2026, 4 - 5pm",
+            "live_broadcast": "Yes",
+            "online": "Yes",
+            "location": "European Medicines Agency, Amsterdam, the Netherlands",
+            "first_published_date": "12/03/2026",
+            "last_updated_date": "24/04/2026",
+            "event_url": "https://www.ema.europa.eu/en/events/clinical-trials-information-system-ctis-walk-clinic-april-2026"
+        },
+        {
+            "title": "European Platform for Regulatory Science Research meeting",
+            "date_start_end_dates": "Thu, Apr 30 2026, 1 - 5pm",
+            "live_broadcast": "No",
+            "online": "Yes",
+            "location": "European Medicines Agency, Amsterdam, the Netherlands",
+            "first_published_date": "08/04/2026",
+            "last_updated_date": "24/04/2026",
+            "event_url": "https://www.ema.europa.eu/en/events/european-platform-regulatory-science-research-meeting-0"
+        },
+        {
+            "title": "CVMP Interested Parties’ meeting 2026",
+            "date_start_end_dates": "Wed, May 20 2026, 5 - 7pm",
+            "live_broadcast": "No",
+            "online": "No",
+            "location": "European Medicines Agency, Amsterdam, the Netherlands",
+            "first_published_date": "24/04/2026",
+            "last_updated_date": "",
+            "event_url": "https://www.ema.europa.eu/en/events/cvmp-interested-parties-meeting-2026"
+        },
+        {
+            "title": "Q&A clinic on Substance, Organisation, Referentials Management Services - March 2026",
+            "date_start_end_dates": "Tue, Mar 10 2026, 11am - 12pm",
+            "live_broadcast": "No",
+            "online": "Yes",
+            "location": "European Medicines Agency, Amsterdam, the Netherlands",
+            "first_published_date": "02/12/2025",
+            "last_updated_date": "21/04/2026",
+            "event_url": "https://www.ema.europa.eu/en/events/qa-clinic-substance-organisation-referentials-management-services-march-2026"
+        },
+        {
+            "title": "Q&A clinic on eXtended EudraVigilance Medicinal Product Dictionary (XEVMPD) service - March 2026",
+            "date_start_end_dates": "Thu, Mar 12 2026, 3 - 4pm",
+            "live_broadcast": "No",
+            "online": "Yes",
+            "location": "European Medicines Agency, Amsterdam, the Netherlands",
+            "first_published_date": "03/12/2025",
+            "last_updated_date": "21/04/2026",
+            "event_url": "https://www.ema.europa.eu/en/events/qa-clinic-extended-eudravigilance-medicinal-product-dictionary-xevmpd-service-march-2026"
+        },
+        {
+            "title": "Committee for Medicinal Products for Human Use (CHMP): 20-23 April 2026",
+            "date_start_end_dates": "Mon, Apr 20 - Thu, Apr 23 2026, All day",
+            "live_broadcast": "No",
+            "online": "No",
+            "location": "European Medicines Agency, Amsterdam, the Netherlands",
+            "first_published_date": "10/03/2023",
+            "last_updated_date": "20/04/2026",
+            "event_url": "https://www.ema.europa.eu/en/events/committee-medicinal-products-human-use-chmp-20-23-april-2026"
+        },
+        {
+            "title": "European Shortages Monitoring Platform (ESMP) training on readable IDs and general updates for industry",
+            "date_start_end_dates": "Tue, Apr 14 2026, 10 - 11am",
+            "live_broadcast": "No",
+            "online": "Yes",
+            "location": "",
+            "first_published_date": "20/03/2026",
+            "last_updated_date": "20/04/2026",
+            "event_url": "https://www.ema.europa.eu/en/events/european-shortages-monitoring-platform-esmp-training-readable-ids-general-updates-industry"
+        },
+        {
+            "title": "Q&A clinic on eXtended EudraVigilance Medicinal Product Dictionary (XEVMPD) service - December 2026",
+            "date_start_end_dates": "Thu, Dec 10 2026, 3 - 4pm",
+            "live_broadcast": "No",
+            "online": "Yes",
+            "location": "",
+            "first_published_date": "16/04/2026",
+            "last_updated_date": "",
+            "event_url": "https://www.ema.europa.eu/en/events/qa-clinic-extended-eudravigilance-medicinal-product-dictionary-xevmpd-service-december-2026"
+        },
+        {
+            "title": "Q&A clinic on eXtended EudraVigilance Medicinal Product Dictionary (XEVMPD) service - November 2026",
+            "date_start_end_dates": "Thu, Nov 12 2026, 3 - 4pm",
+            "live_broadcast": "No",
+            "online": "Yes",
+            "location": "",
+            "first_published_date": "16/04/2026",
+            "last_updated_date": "",
+            "event_url": "https://www.ema.europa.eu/en/events/qa-clinic-extended-eudravigilance-medicinal-product-dictionary-xevmpd-service-november-2026-0"
+        },
+        {
+            "title": "Q&A clinic on eXtended EudraVigilance Medicinal Product Dictionary (XEVMPD) service - October 2026",
+            "date_start_end_dates": "Thu, Oct 8 2026, 3 - 4pm",
+            "live_broadcast": "No",
+            "online": "Yes",
+            "location": "",
+            "first_published_date": "16/04/2026",
+            "last_updated_date": "",
+            "event_url": "https://www.ema.europa.eu/en/events/qa-clinic-extended-eudravigilance-medicinal-product-dictionary-xevmpd-service-october-2026"
+        },
+        {
+            "title": "Q&A clinic on eXtended EudraVigilance Medicinal Product Dictionary (XEVMPD) service - September 2026",
+            "date_start_end_dates": "Thu, Sep 10 2026, 3 - 4pm",
+            "live_broadcast": "No",
+            "online": "Yes",
+            "location": "",
+            "first_published_date": "16/04/2026",
+            "last_updated_date": "",
+            "event_url": "https://www.ema.europa.eu/en/events/qa-clinic-extended-eudravigilance-medicinal-product-dictionary-xevmpd-service-september-2026"
+        },
+        {
+            "title": "Q&A clinic on eXtended EudraVigilance Medicinal Product Dictionary (XEVMPD) service - July 2026",
+            "date_start_end_dates": "Thu, Jul 9 2026, 3 - 4pm",
+            "live_broadcast": "No",
+            "online": "Yes",
+            "location": "",
+            "first_published_date": "16/04/2026",
+            "last_updated_date": "",
+            "event_url": "https://www.ema.europa.eu/en/events/qa-clinic-extended-eudravigilance-medicinal-product-dictionary-xevmpd-service-july-2026"
+        },
+        {
+            "title": "Q&A clinic on eXtended EudraVigilance Medicinal Product Dictionary (XEVMPD) service - June 2026",
+            "date_start_end_dates": "Thu, Jun 11 2026, 3 - 4pm",
+            "live_broadcast": "No",
+            "online": "Yes",
+            "location": "",
+            "first_published_date": "16/04/2026",
+            "last_updated_date": "",
+            "event_url": "https://www.ema.europa.eu/en/events/qa-clinic-extended-eudravigilance-medicinal-product-dictionary-xevmpd-service-june-2026"
+        },
+        {
+            "title": "ACT EU webinar on draft guidance on the conduct of clinical trials during public health emergencies",
+            "date_start_end_dates": "Wed, Apr 8 2026, 10 - 11:30am",
+            "live_broadcast": "No",
+            "online": "Yes",
+            "location": "",
+            "first_published_date": "25/03/2026",
+            "last_updated_date": "16/04/2026",
+            "event_url": "https://www.ema.europa.eu/en/events/act-eu-webinar-draft-guidance-conduct-clinical-trials-during-public-health-emergencies"
+        },
+        {
+            "title": "Q&A clinic on Substance, Organisation, Referentials Management Services - October 2026",
+            "date_start_end_dates": "Wed, Oct 7 2026, 3:30 - 4pm",
+            "live_broadcast": "No",
+            "online": "Yes",
+            "location": "",
+            "first_published_date": "16/04/2026",
+            "last_updated_date": "",
+            "event_url": "https://www.ema.europa.eu/en/events/qa-clinic-substance-organisation-referentials-management-services-october-2026"
+        },
+        {
+            "title": "Q&A clinic on Substance, Organisation, Referentials Management Services - November 2026",
+            "date_start_end_dates": "Wed, Nov 11 2026, 3:30 - 4pm",
+            "live_broadcast": "No",
+            "online": "Yes",
+            "location": "",
+            "first_published_date": "16/04/2026",
+            "last_updated_date": "",
+            "event_url": "https://www.ema.europa.eu/en/events/qa-clinic-substance-organisation-referentials-management-services-november-2026"
+        },
+        {
+            "title": "Webinar on reflection paper on the qualification of non-mutagenic impurities",
+            "date_start_end_dates": "Wed, May 6 2026, 10 - 11:30am",
+            "live_broadcast": "No",
+            "online": "Yes",
+            "location": "",
+            "first_published_date": "16/04/2026",
+            "last_updated_date": "",
+            "event_url": "https://www.ema.europa.eu/en/events/webinar-reflection-paper-qualification-non-mutagenic-impurities-0"
+        },
+        {
+            "title": "Q&A clinic on Substance, Organisation, Referentials Management Services - December 2026",
+            "date_start_end_dates": "Wed, Dec 9 2026, 3:30 - 4pm",
+            "live_broadcast": "No",
+            "online": "Yes",
+            "location": "",
+            "first_published_date": "16/04/2026",
+            "last_updated_date": "",
+            "event_url": "https://www.ema.europa.eu/en/events/qa-clinic-substance-organisation-referentials-management-services-december-2026"
+        },
+        {
+            "title": "EMA Veterinary Medicines Info Day 2026",
+            "date_start_end_dates": "Thu, Mar 12 2026, 2 - 6pm, Fri, Mar 13 2026, 9am - 12:30pm",
+            "live_broadcast": "Yes",
+            "online": "Yes",
+            "location": "European Medicines Agency, Amsterdam, the Netherlands",
+            "first_published_date": "20/01/2026",
+            "last_updated_date": "17/03/2026",
+            "event_url": "https://www.ema.europa.eu/en/events/ema-veterinary-medicines-info-day-2026"
+        },
+        {
+            "title": "Meeting of the Medicine Shortages Single Point of Contact (SPOC) Working Party",
+            "date_start_end_dates": "Mon, Mar 16 2026, 10am - 6pm, Tue, Mar 17 2026, 9am - 4pm",
+            "live_broadcast": "No",
+            "online": "No",
+            "location": "European Medicines Agency, Amsterdam, the Netherlands",
+            "first_published_date": "20/01/2025",
+            "last_updated_date": "17/03/2026",
+            "event_url": "https://www.ema.europa.eu/en/events/meeting-medicine-shortages-single-point-contact-spoc-working-party-39"
+        }
+    ]
+}
