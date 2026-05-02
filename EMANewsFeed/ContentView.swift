@@ -16,7 +16,7 @@ struct ContentView: View {
             }
             
             Tab("Events", systemImage: "calendar") {
-                Text("Events")
+                EventsView()
                     .toolbarBackgroundVisibility(.visible, for: .tabBar)
             }
         }
