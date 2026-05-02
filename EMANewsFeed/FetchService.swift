@@ -37,4 +37,24 @@ struct FetchService {
         // return the newsItem
         return newsItems.data
     }
+    
+    func fetchEventItems() async throws -> [EventItem] {
+        // build the fetch URL
+        let eventsItemsURL = baseURL.appending(path: "events-json-report_en.json")
+        
+        // try and fetch data
+        let (data, response) = try await URLSession.shared.data(from: eventsItemsURL)
+        
+        // handle response from server which is a status code, a 3 digit number
+        // we check if it was a good response with response code 200
+        guard let response = response as? HTTPURLResponse, response.statusCode == 200 else {
+            throw FetchError.badResponse
+        }
+        
+        // decode the data
+        let eventsItems = try JSONDecoder().decode(EMAEventsResponse.self, from: data)
+        
+        // return the newsItem
+        return eventsItems.data
+    }
 }
