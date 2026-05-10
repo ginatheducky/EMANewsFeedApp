@@ -8,14 +8,20 @@
 import SwiftUI
 
 struct EventsView: View {
-    var vm = ViewModel()
+    @State private var vm = ViewModel()
     
     var body: some View {
-        List(vm.eventItems) { item in
-            Text(item.title)
-        }
-        .task {
-            await vm.getEventData()
+        NavigationStack {
+            List(vm.eventItems) { item in
+                NavigationLink {
+                    EventItemView(eventItem: item)
+                } label: {
+                    Text(item.title)
+                }
+            }
+            .task {
+                await vm.getEventData()
+            }
         }
     }
 }
