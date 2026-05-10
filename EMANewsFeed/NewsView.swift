@@ -8,14 +8,20 @@
 import SwiftUI
 
 struct NewsView: View {
-    var vm = ViewModel()
+    @State private var vm = ViewModel()
     
     var body: some View {
-        List(vm.newsItems) { item in
-            Text(item.title)
-        }
-        .task {
-            await vm.getNewsData()
+        NavigationStack {
+            List(vm.newsItems) { item in
+                NavigationLink {
+                    NewsItemView(newsItem: item)
+                } label: {
+                    Text(item.title)
+                }
+            }
+            .task {
+                await vm.getNewsData()
+            }
         }
     }
 }
