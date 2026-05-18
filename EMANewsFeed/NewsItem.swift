@@ -26,7 +26,7 @@ struct NewsItem: Decodable, Identifiable {
     let categories: String?
     let topics: String?
     let newsSummary: String?
-    let firstPublishedDate: String?
+    let firstPublishedDate: Date?
     let newsUrl: URL
     
     var id: URL { newsUrl }
@@ -50,7 +50,7 @@ extension NewsItem {
         categories: "Human;Corporate",
         topics: "Medicines;Vaccines",
         newsSummary: "Outcomes of the Committee for Veterinary Medicinal Products (CVMP) meeting",
-        firstPublishedDate: "17/04/2026",
+        firstPublishedDate: Calendar.current.date(from: DateComponents(year: 2026, month: 4, day: 17)),
         newsUrl: URL(string: "https://www.ema.europa.eu/en/news/meeting-highlights-committee-veterinary-medicinal-products-cvmp-14-16-april-2026")!
     )
 }
