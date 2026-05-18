@@ -24,7 +24,7 @@ struct NewsItem: Decodable, Identifiable {
     let title: String
     let pressRelease: String?
     @SemicolonSeparatedArray var categories: [String] = []
-    let topics: String?
+    @SemicolonSeparatedArray var topics: [String] = []
     let newsSummary: String?
     private(set) var firstPublishedDateString: String?
     let newsUrl: URL
