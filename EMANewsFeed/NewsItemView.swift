@@ -17,7 +17,7 @@ struct NewsItemView: View {
                 .foregroundStyle(.emadarkblue)
             Text(newsItem.firstPublishedDate?.formatted(.dateTime.day().month(.wide).year())
                  ?? "Date not available.")
-            Text(newsItem.categories ?? "")
+            Text(newsItem.categories.joined(separator: ", "))
             Text(newsItem.topics ?? "")
             Text(newsItem.newsSummary ?? "No summary available.")
         }
@@ -25,6 +25,18 @@ struct NewsItemView: View {
     }
 }
 
+
 #Preview {
-    NewsItemView(newsItem: .preview)
+    NewsItemView(
+        newsItem: NewsItem(
+            title: "Test Meeting highlights from the Committee for Veterinary Medicinal Products (CVMP) 14-16 April 2026",
+            pressRelease: "No",
+            categories: ["Human", "Corporate"],
+            topics: "Medicines;Vaccines",
+            newsSummary: "Outcomes of the Committee for Veterinary Medicinal Products (CVMP) meeting",
+            firstPublishedDateString: "17/04/2026",
+            newsUrl: URL(string: "https://www.ema.europa.eu/en/news/meeting-highlights-committee-veterinary-medicinal-products-cvmp-14-16-april-2026")!
+        )
+    )
 }
+

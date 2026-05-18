@@ -31,16 +31,15 @@ struct FetchService {
             throw FetchError.badResponse
         }
         
-        let decoder = JSONDecoder()
-        
-        let df = DateFormatter()
-        df.locale = Locale(identifier: "en_US_POSIX")
-        df.dateFormat = "dd/MM/yyyy"
-        decoder.dateDecodingStrategy = .formatted(df)
+        //let decoder = JSONDecoder()
+        //let df = DateFormatter()
+        //df.locale = Locale(identifier: "en_US_POSIX")
+        //df.dateFormat = "dd/MM/yyyy"
+        //decoder.dateDecodingStrategy = .formatted(df)
         
         // decode the data
-        let newsItems = try decoder.decode(EMANewsResponse.self, from: data)
-        //let newsItems = try JSONDecoder().decode(EMANewsResponse.self, from: data)
+        //let newsItems = try decoder.decode(EMANewsResponse.self, from: data)
+        let newsItems = try JSONDecoder().decode(EMANewsResponse.self, from: data)
         
         // return the newsItem
         return newsItems.data

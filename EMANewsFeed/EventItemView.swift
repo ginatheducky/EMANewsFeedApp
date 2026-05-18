@@ -41,5 +41,14 @@ struct EventItemView: View {
 }
 
 #Preview {
-    EventItemView(eventItem: .preview)
+    EventItemView(
+        eventItem: EventItem(
+            title: "Test ACT EU webinar on contractual agreements",
+            dateStartEndDates: "Thu, Apr 16 2026, 9am - 12:30pm",
+            liveBroadcast: "No",
+            online: "Yes",
+            location: "European Medicines Agency, Amsterdam, the Netherlands",
+            eventUrl: URL(string: "https://www.ema.europa.eu/en/events/act-eu-webinar-contractual-agreements")!
+        )
+    )
 }

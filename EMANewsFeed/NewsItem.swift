@@ -23,13 +23,18 @@ struct EMANewsResponse: Decodable {
 struct NewsItem: Decodable, Identifiable {
     let title: String
     let pressRelease: String?
-    let categories: String?
+    @SemicolonSeparatedArray var categories: [String] = []
     let topics: String?
     let newsSummary: String?
-    let firstPublishedDate: Date?
+    private(set) var firstPublishedDateString: String?
     let newsUrl: URL
     
     var id: URL { newsUrl }
+    
+    var firstPublishedDate: Date? {
+        guard let s = firstPublishedDateString, !s.isEmpty else { return nil }
+        return Self.emaDateFormatter.date(from: s)
+    }
     
     enum CodingKeys: String, CodingKey {
         case title
@@ -37,20 +42,15 @@ struct NewsItem: Decodable, Identifiable {
         case categories
         case topics
         case newsSummary = "news_summary"
-        case firstPublishedDate = "first_published_date"
+        case firstPublishedDateString = "first_published_date"
         case newsUrl = "news_url"
     }
-}
-
-// tatic sample NewsItem just for previews/testing
-extension NewsItem {
-    static let preview = NewsItem(
-        title: "Meeting highlights from the Committee for Veterinary Medicinal Products (CVMP) 14-16 April 2026",
-        pressRelease: "No",
-        categories: "Human;Corporate",
-        topics: "Medicines;Vaccines",
-        newsSummary: "Outcomes of the Committee for Veterinary Medicinal Products (CVMP) meeting",
-        firstPublishedDate: Calendar.current.date(from: DateComponents(year: 2026, month: 4, day: 17)),
-        newsUrl: URL(string: "https://www.ema.europa.eu/en/news/meeting-highlights-committee-veterinary-medicinal-products-cvmp-14-16-april-2026")!
-    )
+    
+    
+    private static let emaDateFormatter: DateFormatter = {
+        let df = DateFormatter()
+        df.locale = Locale(identifier: "en_US_POSIX")
+        df.dateFormat = "dd/MM/yyyy"
+        return df
+    }()
 }
