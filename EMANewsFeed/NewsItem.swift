@@ -11,6 +11,9 @@
 //      "data" : [ { news item }, { news item }]
 // }
 
+// Categories: Corporate, Herbal, Human, Veterinary
+// sometimes more than one separated by ; e.g. "Human;Veterinary;Corporate"
+
 import Foundation
 
 struct EMANewsResponse: Decodable {
@@ -44,7 +47,7 @@ extension NewsItem {
     static let preview = NewsItem(
         title: "Meeting highlights from the Committee for Veterinary Medicinal Products (CVMP) 14-16 April 2026",
         pressRelease: "No",
-        categories: "Human",
+        categories: "Human;Corporate",
         topics: "Medicines;Vaccines",
         newsSummary: "Outcomes of the Committee for Veterinary Medicinal Products (CVMP) meeting",
         firstPublishedDate: "17/04/2026",

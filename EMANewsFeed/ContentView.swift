@@ -8,16 +8,40 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var vm = ViewModel()
+    
     var body: some View {
         TabView {
             Tab("News", systemImage: "newspaper") {
-                NewsView()
-                    .toolbarBackgroundVisibility(.visible, for: .tabBar)
+                NavigationStack {
+                    List(vm.newsItems) { item in
+                        NavigationLink {
+                            NewsItemView(newsItem: item)
+                        } label: {
+                            Text(item.title)
+                        }
+                    }
+                    .task {
+                        await vm.getNewsData()
+                    }
+                }
+                .toolbarBackgroundVisibility(.visible, for: .tabBar)
             }
             
             Tab("Events", systemImage: "calendar") {
-                EventsView()
-                    .toolbarBackgroundVisibility(.visible, for: .tabBar)
+                NavigationStack {
+                    List(vm.eventItems) { item in
+                        NavigationLink {
+                            EventItemView(eventItem: item)
+                        } label: {
+                            Text(item.title)
+                        }
+                    }
+                    .task {
+                        await vm.getEventData()
+                    }
+                }
+                .toolbarBackgroundVisibility(.visible, for: .tabBar)
             }
         }
     }
