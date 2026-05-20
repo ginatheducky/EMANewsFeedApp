@@ -21,9 +21,8 @@ struct ContentView: View {
                             Text(item.title)
                         }
                     }
-                    .task {
-                        await vm.getNewsData()
-                    }
+                    .navigationTitle("News")
+                    .task { await vm.getNewsData() }
                 }
                 .toolbarBackgroundVisibility(.visible, for: .tabBar)
             }
@@ -37,9 +36,8 @@ struct ContentView: View {
                             Text(item.title)
                         }
                     }
-                    .task {
-                        await vm.getEventData()
-                    }
+                    .navigationTitle("Events")
+                    .task { await vm.getEventData() }
                 }
                 .toolbarBackgroundVisibility(.visible, for: .tabBar)
             }

@@ -46,11 +46,12 @@ struct NewsItemView: View {
                         .background(.gray.opacity(0.15), in: Capsule())
                 }
             }
-            .frame(maxWidth: .infinity, alignment: .leading)
             .padding()
 
             Text(newsItem.newsSummary ?? "No summary available.")
                 .padding(.horizontal)
+            
+            Spacer()
         }
     }
 }
