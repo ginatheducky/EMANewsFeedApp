@@ -10,11 +10,33 @@ import SwiftUI
 struct ContentView: View {
     @State private var vm = ViewModel()
     
+    @State var searchText = ""
+    
+    var filteredNewsItems: [NewsItem] {
+        if searchText.isEmpty {
+            return vm.newsItems
+        } else {
+            return vm.newsItems.filter { newsItem in
+                newsItem.title.localizedCaseInsensitiveContains(searchText)
+            }
+        }
+    }
+    
+    var filteredEventItems: [EventItem] {
+        if searchText.isEmpty {
+            return vm.eventItems
+        } else {
+            return vm.eventItems.filter { eventItem in
+                eventItem.title.localizedCaseInsensitiveContains(searchText)
+            }
+        }
+    }
+    
     var body: some View {
         TabView {
             Tab("News", systemImage: "newspaper") {
                 NavigationStack {
-                    List(vm.newsItems) { item in
+                    List(filteredNewsItems) { item in
                         NavigationLink {
                             NewsItemView(newsItem: item)
                         } label: {
@@ -23,13 +45,15 @@ struct ContentView: View {
                     }
                     .navigationTitle("News")
                     .task { await vm.getNewsData() }
+                    .searchable(text: $searchText)
+                    .autocorrectionDisabled()
                 }
                 .toolbarBackgroundVisibility(.visible, for: .tabBar)
             }
             
             Tab("Events", systemImage: "calendar") {
                 NavigationStack {
-                    List(vm.eventItems) { item in
+                    List(filteredEventItems) { item in
                         NavigationLink {
                             EventItemView(eventItem: item)
                         } label: {
@@ -38,6 +62,8 @@ struct ContentView: View {
                     }
                     .navigationTitle("Events")
                     .task { await vm.getEventData() }
+                    .searchable(text: $searchText)
+                    .autocorrectionDisabled()
                 }
                 .toolbarBackgroundVisibility(.visible, for: .tabBar)
             }
