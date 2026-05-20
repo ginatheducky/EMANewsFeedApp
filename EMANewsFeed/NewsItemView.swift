@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-import Flow
 
 struct NewsItemView: View {
     let newsItem: NewsItem
@@ -36,7 +35,7 @@ struct NewsItemView: View {
                 .padding()
                 .background(Color.emalightblue)
 
-            HFlow(itemSpacing: 8, rowSpacing: 8) {
+            HStack {
                 ForEach(newsItem.topics, id: \.self) { topic in
                     Text("#\(topic)")
                         .font(.subheadline)
